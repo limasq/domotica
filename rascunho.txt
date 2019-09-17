@@ -1,0 +1,53 @@
+Paper:
+[1] Monitoramento e acionamento remoto de cargas utilizando Sistema Embarcado Linux (2017)
+[2] Automação Domótica Simulada Utilizando Algoritmo Genético Especializado na Redução do Consumo de Energia (2017)
+[3] Estudo da inteligência artificial aplicada em IoT, voltada na automação residencial (2018)
+[4] Desenvolvimento de sistema de controle via interface natural do usuário (2017)
+[5] Domótica: viabilidade da Automação Residencial (2018) 
+
+Instituição: 
+[1] Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)
+[2] Faculdade de Tecnologia SENAI MT (FATEC SENAI MT), Instituto de Computação - Universidade Federal de Mato Grosso (UFMT), Universidade do Vale do Itajaí (UNIVALI)
+[3] Revista científica Semana Acadêmica (https://semanaacademica.org.br/)
+[4] Universidade Federal de Ouro Preto – UFOP 
+[5] Centro Universitário Sul de Minas
+
+Objetivos:
+[1] Desenvolver um sistema que monitora a energização de cargas elétricas, permitindo ligar ou desligar aparelhos eletrônicos via página web. O sistema desenvolvido neste artigo visa monitorar computadores remotamente.
+[2] Desenvolver um sistema para redução do consumo de energia elétrica residencial utilizando a técnica de algoritmos genéticos. A metodologia consistiu na criação de cenários de teste, obtenção de dados relevantes, para atingir os objetivos de otimização, e a utilização de um modelo matemático para o cálculo do consumo de energia
+[3] Propor um modelo de interconectividade de dispositivos em automação residencial a partir do paradigma inteligência artificial (IA) aplicada em internet das coisas (IoT). Os objetivos específicos se dividem em: (A)Investigar os conceitos de IA e IoT, suas técnicas e ferramentas associadas; (B) Avaliar possível cenário de integração entre IA e IoT; (C). Identificar possíveis cenários de utilização do modelo proposto.
+[4] Desenvolver um sistema de automação para controlar a iluminação e acionar equipamentos elétricos utilizando o dispositivo Kinect para Windows, controlado via Interface Natural do Usuário
+[5] Apresentar um estudo sobre as características e benefícios da automação residencial, que também é denominada domótica ou tecnologia da casa inteligente, e representa a integração dos serviços e tecnologias aplicados aos imóveis residenciais.
+
+Metodologias:
+[1] No projeto proposto foi desenvolvida uma página web para o monitoramento de energização dos computadores, que solicita e recupera dados/informações de um banco de dados. O banco de dados é alimentado por um programa em linguagem C que é processado no sistema embarcado Linux do Raspberry Pi 
+[2] O processo consistiu no desenvolvimento de uma aplicação para automação residencial, utilizando arquitetura do sistema domótica para gestão do consumo de energia elétrica. O sistema também proporciona a otimização do uso dos recursos existentes por meio da técnica de Algoritmos Genéticos [Rosa et al 2009], devido a sua característica de otimização global baseada na seleção natural biológica, que busca, estruturada e aleatoriamente, indivíduos com “alta-aptidão” [Carvalho 2009]. Os dados de entradas são baseados em dados coletados e gerados pelo framework Energyplus [Doe 2007]. Nos testes do sistema, utilizaram-se três diferentes cenários de residências localizadas na região de Cuiabá MT.
+[3] Na automação residencial são usados diversos hardwares, softwares que fazem uma residência ter ações pré-estabelecidas, usando somente IoT, ao adicionar IA o conceito evolui para Domótica Inteligente. O algoritmo em foco é o C4.5 ele gera uma árvore de decisão a partir dos dados coletados em função recursiva em dados particionados. A árvore é criada usando um roteiro de busca de profundidade (depth-first), o algoritmo testa todas as opções possíveis que podem dividir o conjunto de dados e seleciona a opção que resulta o maior ganho de informação.
+[4] Através do dispositivo Kinect, o sistema é controlado via Interface Natural do Usuário, que pode ser definida como uma interface projetada para utilizar comportamentos humanos naturais para interagir com o conteúdo digital, como por exemplo: gestos, movimentos e comandos de voz, captados pelo Kinect. Para tanto, foram desenvolvidos: (i) um dispositivo de acionamento microcontrolado capaz de controlar lâmpadas e/ou dispositivos elétricos conectados a ele; (ii) um programa computacional capaz de interpretar as informações fornecidas pelo Kinect via USB e capaz de se comunicar por meio de outra porta USB com o dispositivo de acionamento e controlá-lo; (iii) um aplicativo para smartphone capaz de se comunicar via Bluetooth com o dispositivo de acionamento e controlá-lo
+[5] Apresentar um estudo de caso envolvendo o projeto e a instalação de um sistema de automação em uma residência estilo loft, e com base nesta implantação, realizar um estudo comparativo entre o sistema convencional e o sistema automatizado, avaliando os pontos positivos e eventualmente negativos, de forma a avaliar a viabilidade de implantação desta tecnologia nas residências seguindo o avanço tecnológico cada vez mais presente no dia a dia das pessoas.
+
+\subsection{Conclusões}
+\begin{enumerate}
+\item Os objetivos principais desse projeto foram alcançados, funcionando de forma estável durante os experimentos, visto que a tecnologia de sistemas embarcados utilizada apresentou um desempenho satisfatório. Além disso, o tamanho reduzido do sistema completo desenvolvido, torna o projeto proposto ideal para a aplicação em ambientes que utilizam computadores.
+\item O sistema mostrou-se viável, pois conseguiu atingir o objetivo principal, que era a proposta de otimização do consumo de energia elétrica através da simulação em ambiente domótica, com resultados satisfatórios ao dia, mês e ano (diminuição da fatura ao final do mês em até 10% nos casos simulados), além de indicar as quantidades máximas de equipamentos que podem estar ligados a cada hora, bem como seus consumos em kW e valores em R$ (reais). 
+\item Com base no que foi proposto, ficou bem claro o quanto essas ferramentas podem ajudar no processo de automação, criando um ambiente inteligente com capacidade de aprendizado e alto poder de execução, demonstrando uma total liberdade para os habitantes escolher a melhor opção de processamento que se adeque as suas necessidades. 
+\item O protótipo atendeu aos requisitos do sistema e funcionou de modo satisfatório. Atualmente existem muitos produtos no mercado que tem funcionalidades parecidas com as apresentadas no trabalho. Alguns tiveram muito destaque como o Amazon Echo, Google Home e Apple HomePod. Esses produtos são controladores acionados por comandos de voz, e além de conseguirem controlar outros produtos, como lâmpadas inteligentes, também são capazes de responder perguntas do usuário e facilitar tarefas cotidianas. 
+\item O trabalho atingiu os objetivos propostos, principalmente em relação ao conforto e comodidade do imóvel, inclusive trazendo significativa melhoria no bem-estar dos moradores. A flexibilidade do sistema permite que as programações sejam criadas ou alteradas com facilidade pelo usuário, dando liberdade para que ajustes sejam feitos sem dificuldades afim de adequar o funcionamento de acordo com as preferências. 
+\end{enumerate}
+
+Proposta:
+Inspirado no personagem "Jarvis", IA criada por Tony Stark no filme "Iron Man", que dialogava com seu criador e até sugeria ações a serem tomadas, a proposta deste trabalho é levantar o estado da arte dos sistemas de automação residencial (domótica) atualmente empregados e de suas características, bem como da interação com as atuais tecnologias desenvolvidas relacionadas à IoT (Internet das Coisas) e do uso de alguma metodologia de Inteligência Artificial.
+
+A proposta deste trabalho é utilizar o Google Voice Kit como interface de controle de IA para gerir as cargas elétricas e luminotécnicas de uma residência através do aprendizado do comportamento de consumo dos residentes locais. A IA aprenderia os costumos através de comandos de voz de da percepção da presença dos indivíduos nos diferentes cômodos via identificação por Bluetooth. O objetivo será considerado bem sucedido se a IA for capaz de ligar e desligar luzes de acordo com a presença de indivíduos e do horário do dia, de desligar todas as cargas quando ninguém estiver presente, etc. Ou seja, de antecipar as necessidades dos residentes.
+
+Introdução: 
+A domótica refere-se a um sistema ou método pelo qual é possível o controle de recursos existentes em uma residência, decidindo ações para automatizá-los ou aperfeiçoá-los através de sistemas eletrônicos mediante condições lógicas com o objetivo de proporcionar a economia de energia, uso racional dos recursos, além de segurança e conforto aos seus residentes.
+
+Segundo um levantamento feito pela Associação Brasileira de Empresas de Serviço de Conservação de Energia (Abesco, 2015), o desperdício de energia por ineficiência gera perdas de R$ 12,6 bilhões por ano. O simples fato de deixar-mos um televisor ligado em stand-by mesmo sem a presença de algum consumidor,  quando estamos fora de casoa Muitas pessoas
+tem o hábito de deixar o computador de casa ou da empresa ligado ininterruptamente, às
+vezes por comodidade ou por esquecer de desligar. Portanto, otimizar o uso da energia,é um grande passo para um uso mais sustentável e para a economia financeira
+
+O 'kit' roda sobre uma variação do SO Linux Debian, adaptado especificamente para este fim e já contendo vários scripts em Python para verificação do correto funcionamento do aparelho, testando os microfones e speeker, além da resposta ao comando de voz.
+Além do SO citado, o kit utiliza a API do Google Assistant. O Google Assistant é a fusão do Google de Aprendizado de Máquina, Reconhecimento de Fala e Compreensão de Linguagem. Essencialmente, permite que você tenha uma conversa verbal com o Google e receba respostas por voz. O uso mais conhecido do Assistente no momento está nos dispositivos domésticos do Google, mas também está disponível para determinados telefones Android. Eventualmente, estará disponível em quase toda parte.
+
+Departamento de Ciência da Computação
